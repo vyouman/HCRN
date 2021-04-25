@@ -404,7 +404,7 @@ def validate(epoch, best_valid_loss):
             pred = train_model(input1)
 
             if opt.loss == 'L1c':
-                valid_loss_spec = my_loss1(target, pred) / (F * T)  # 除以这个系数其实是因为前面没有乘以权重，loss有点大
+                valid_loss_spec = my_loss1(target, pred) / (F * T)  
 
                 # compute wave loss
                 mix_phase = torch.from_numpy(BatchMixPhase)  # (B, T, F)
