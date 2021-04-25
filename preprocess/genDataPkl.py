@@ -9,10 +9,10 @@ valid_set = '/home/user/huangyating/espnet/egs/wsj/tts1/data/test_dev93/wav.scp'
 test_set = '/home/user/huangyating/espnet/egs/wsj/tts1/data/test_eval92/wav.scp'
 
 # PATH TO PKL FILE
-target_fn = '/data/hyt_data/wsj/train_valid_16k.pkl'
-interf_fn = '/data/hyt_data/esc_audio/train_valid_16k.pkl'
-target_fn_t = '/data/hyt_data/wsj/test_16k.pkl'
-interf_fn_t = '/data/hyt_data/esc_audio/test_16k.pkl'
+target_fn = '/data/hyt_data/wsj/train_valid.pkl'
+interf_fn = '/data/hyt_data/esc_audio/train_valid.pkl'
+target_fn_t = '/data/hyt_data/wsj/test.pkl'
+interf_fn_t = '/data/hyt_data/esc_audio/test.pkl'
 
 
 def write_dict(ll):
