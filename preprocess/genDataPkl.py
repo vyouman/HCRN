@@ -3,10 +3,10 @@ import soundfile as sf
 # PATH to WSJ wav list
 # scp data format
 # utterance-id  wav_path
-noise = '/home/user/huangyating/SpeechSynthesis4Separation-master/Data/audio_esc.pkl'
-train_set = '/home/user/huangyating/espnet/egs/wsj/tts1/data/train_si284/wav.scp'
-valid_set = '/home/user/huangyating/espnet/egs/wsj/tts1/data/test_dev93/wav.scp'
-test_set = '/home/user/huangyating/espnet/egs/wsj/tts1/data/test_eval92/wav.scp'
+noise = '/home/user/huangyating/audio_esc.pkl'
+train_set = '/home/user/huangyating/wsj/data/train_si284/wav.scp'
+valid_set = '/home/user/huangyating/wsj/data/test_dev93/wav.scp'
+test_set = '/home/user/huangyating/wsj/data/test_eval92/wav.scp'
 
 # PATH TO PKL FILE
 target_fn = '/data/hyt_data/wsj/train_valid.pkl'
