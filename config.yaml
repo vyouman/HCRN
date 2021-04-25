@@ -8,3 +8,5 @@ rescaling: 1 # 1 do rescaling, 0 do not do rescaling
 rescaling_max: 0.999
 target_fn: /data/hyt_data/wsj/train_valid.pkl
 interf_fn: /data/hyt_data/esc_audio/train_valid.pkl
+target_fn_test: /data/hyt_data/wsj/test.pkl
+interf_fn_test: /data/hyt_data/esc_audio/test.pkl
