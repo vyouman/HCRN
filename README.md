@@ -8,6 +8,7 @@ soundfile
 pysepq  
 librosa  
 pystoi
+lera
 
 # Data Preparation
 Use the scripts in preprocess to process the WSJ, ESC-50 and Audioset datasets. Please modify the dataset paths in the scripts.
