@@ -45,7 +45,6 @@ parser.add_argument('--add_blank', default=10, type=int, help="whether to add bl
 parser.add_argument('--valid_or_test', default='test', type=str, help="Valid or test!")
 parser.add_argument('--dBscale', type=int, default=1, help='0 not transfer to db scale')
 parser.add_argument('--normalize', type=int, default=1, help='0 not normalize')
-parser.add_argument('--clip_phase', default=1, type=int, help="1 clip phase")
 parser.add_argument('--kernel_size', type=int, default=7, help='kernel size')
 parser.add_argument('--dilation', type=int, default=1, help='dilation rate')
 parser.add_argument('--db', type=float, default=5, help='mixing db') # We can specify the mixing dB level here
