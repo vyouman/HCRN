@@ -1,0 +1,10 @@
+fft_size: 256
+num_hidden_linear: 400 # not used in the code..
+hop_size: 128
+max_db: 100
+ref_db: 20
+sample_rate: 8000
+rescaling: 1 # 1 do rescaling, 0 do not do rescaling
+rescaling_max: 0.999
+target_fn: /data/hyt_data/wsj/train_valid.pkl
+interf_fn: /data/hyt_data/esc_audio/train_valid.pkl
