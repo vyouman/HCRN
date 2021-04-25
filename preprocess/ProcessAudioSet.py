@@ -2,11 +2,6 @@
 import os
 import pickle
 
-# # 115
-# unbalance_set_path = '/data/xujiaming_data/audioset/backgrounds/acousticenvironment/insidesmallroom/unb_insidesmall_single'
-# balance_set_path = '/data/xujiaming_data/audioset/backgrounds/acousticenvironment/insidesmallroom/insidesmall_singleb'
-# balance_eval_path = '/data/xujiaming_data/audioset/backgrounds/acousticenvironment/insidesmallroom/insidesmall_singlee'
-
 # PATH TO AUDIOSET
 unbalance_set_path = '/data/hyt_data/insidesmallroom/unb_insidesmall_single'
 balance_set_path = '/data/hyt_data/insidesmallroom/insidesmall_singleb'
