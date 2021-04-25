@@ -18,11 +18,6 @@ import datetime
 from utils import SNR_db_to_scale
 import librosa
 
-# train_set = '/home/user/huangyating/espnet/egs/wsj/tts1/data/train_si284/wav.scp'
-# valid_set = '/home/user/huangyating/espnet/egs/wsj/tts1/data/test_dev93/wav.scp'
-# test_set = '/home/user/huangyating/espnet/egs/wsj/tts1/data/test_eval92/wav.scp'
-# format: uttid  wav_path
-
 hparams = utils.read_config('config.yaml')
 
 def complex2float(array):
