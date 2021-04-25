@@ -39,7 +39,7 @@ parser.add_argument('--batchSize', default=128, type=int)  # when batchSize is 1
 parser.add_argument('--seqLen', default=128, type=int)
 parser.add_argument('--debug', default=0, type=int)  # debug>0 will save weights by TensorBoard
 parser.add_argument('--save_dir', default='/home/user/huangyating/HCRN/ckpt', type=str)
-parser.add_argument('--title', default='HCRN2', type=str)
+parser.add_argument('--title', default='HCRN', type=str)
 parser.add_argument('--checkpoint', type=str, default=None, help="checkpoint filename")
 parser.add_argument('--useAct', type=str, default='Sigmoid', help="Use Activation function?")
 parser.add_argument('--substract_mean', type=int, default=1, help='0 not substract mean')
