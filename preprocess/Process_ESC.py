@@ -4,7 +4,7 @@ from random import shuffle, seed
 import pickle
 
 interf_data_root = '/home/user/huangyating/dataset/ESC-50-master/audio'
-fn = '/home/user/huangyating/SpeechSynthesis4Separation-master/Data/ESC_all.pkl'
+fn = '/home/user/huangyating/ESC_all.pkl'
 with open(fn,'rb') as f: 
     audioList, categoryList = pickle.load(f)
 
@@ -25,6 +25,6 @@ interf_train_cat = categoryList[:trainN]
 interf_test_cat = categoryList[trainN::]
 
 # Saving the objects:
-sav_fn = '/home/user/huangyating/SpeechSynthesis4Separation-master/Data/ESc_split.pkl'
+sav_fn = '/home/user/huangyating/ESc_split.pkl'
 with open(sav_fn, 'wb') as f:  # Python 2 open(..., 'w') Python 3: open(..., 'wb')
     pickle.dump([interf_train, interf_test, interf_train_cat, interf_test_cat], f)
