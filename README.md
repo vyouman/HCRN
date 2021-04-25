@@ -18,7 +18,7 @@ For training:  python3 Train.py
 
 For testing:  pytho3 Test.py
 
-Please modify the dataset paths and model paths in the scripts.
+Please modify specify processed dataset paths in config.yaml.
 
 # Contact
 If you have any questions, please feel free to contact me at huangyating2016@ia.ac.cn
