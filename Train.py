@@ -35,7 +35,7 @@ parser.add_argument('--newSeedNum', default=418571351248, type=int)  # new seeds
 parser.add_argument('--epochs', default=30, type=int) # 30
 parser.add_argument('--stepsPerEpochTrain', default=1100, type=int)  # when batchSize is 128, seq=128, default 1100
 parser.add_argument('--stepsPerEpochValid', default=15, type=int) # default 15
-parser.add_argument('--batchSize', default=2, type=int)  # when batchSize is 128, seq=128
+parser.add_argument('--batchSize', default=128, type=int)  # when batchSize is 128, seq=128
 parser.add_argument('--seqLen', default=128, type=int)
 parser.add_argument('--debug', default=0, type=int)  # debug>0 will save weights by TensorBoard
 parser.add_argument('--save_dir', default='/home/user/huangyating/HCRN/ckpt', type=str)
